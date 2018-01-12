@@ -1,8 +1,9 @@
+///ADD HEADER///
 #ifndef FILLIT_H
-# define FILLIT_T
+# define FILLIT_H
 # include <string.h>
 # include <fcntl.h>
-# include "includes\libft.h"
+# include "../libft/includes/libft.h"
 
 
 
@@ -21,11 +22,12 @@ typedef struct s_tetriminos
 	char value; ///?
 }				t_tetriminos;
 
-t_list	*read_in_list(int fd);
+int	read_in_list(int fd);
+//t_list	*read_in_list(int fd);
 
 
-t_map			*solve(t_list *list);
-void			print_map(t_map *map);
-void			free_map(t_map *map);
-void			free_list(t_list *list);
+//t_map			*solve(t_list *list);
+//void			print_map(t_map *map);
+//void			free_map(t_map *map);
+//void			free_list(t_list *list);
 #endif

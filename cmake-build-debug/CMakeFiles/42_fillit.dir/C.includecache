@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dzorin/Desktop/42_fillit/includes/fillit.h
+string.h
+-
+fcntl.h
+-
+../libft/includes/libft.h
+/Users/dzorin/Desktop/42_fillit/libft/includes/libft.h
+
+/Users/dzorin/Desktop/42_fillit/libft/includes/libft.h
+string.h
+-
+
+/Users/dzorin/Desktop/42_fillit/src/main.c
+../includes/fillit.h
+/Users/dzorin/Desktop/42_fillit/includes/fillit.h
+
+/Users/dzorin/Desktop/42_fillit/src/read.c
+../includes/fillit.h
+/Users/dzorin/Desktop/42_fillit/includes/fillit.h
+fcntl.h
+-
+unistd.h
+-
+
