@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include "get_next_line.h"
+#include "../../includes/libft.h"
+#include "../../includes/get_next_line.h"
 #include <unistd.h>
 
 static char		*get_append(t_gnl *gnl)

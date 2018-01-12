@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include "get_next_line.h"
+#include "../../includes/libft.h"
+#include "../../includes/get_next_line.h"
 
 static void		strdel(void *str, size_t size)
 {
