@@ -5,8 +5,11 @@
 # include <fcntl.h>
 # include "../libft/includes/libft.h"
 
-
-
+typedef struct	s_point
+{
+    int			x;
+    int			y;
+}				t_point;
 
 typedef struct	s_map
 {
@@ -19,12 +22,11 @@ typedef struct s_tetriminos
 	char **tetr;
 	int x;
 	int y;
-	char value; ///?
+	char name; ///?
 }				t_tetriminos;
 
-int	read_in_list(int fd);
-//t_list	*read_in_list(int fd);
-
+t_list	*read_in_list(int fd);
+t_tetriminos *get_one(char *str, char name);
 
 //t_map			*solve(t_list *list);
 //void			print_map(t_map *map);
